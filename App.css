@@ -1,0 +1,41 @@
+body {
+  padding: 12px;
+}
+
+table,
+th,
+td {
+  border: 3px solid black;
+  border-collapse: collapse;
+  border-spacing: 3px;
+}
+th,
+td {
+  padding: 10px;
+}
+p,
+ol,
+ul li {
+  font-family: "Times New Roman", serif;
+  font-size: 1.1em;
+  color: black;
+}
+body {
+  background-color: powderblue;
+  background-image: url(./background.jpg);
+  background-size: contain;
+}
+h1 {
+  color: black;
+}
+h3 {
+  font-family: "Arial Narrow Bold", sans-serif;
+  font-size: 1.3em;
+}
+.profile-band-image {
+  align-items: center;
+  height: 280px;
+  width: 260px;
+  margin: 10px;
+  border-radius: 75%;
+}
